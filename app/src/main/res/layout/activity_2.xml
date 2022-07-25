@@ -61,14 +61,14 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName"
-        android:hint="Введите свое имя..."
+        android:hint=""
         android:layout_width="0dp"
         android:layout_height="71dp"
         android:layout_marginTop="28dp"
         android:background="@color/white"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text=""
+        android:text="     Введите свое имя..."
         android:textColor="#757373"
         android:textStyle="italic"
         app:layout_constraintBottom_toTopOf="@+id/bt3"
@@ -78,5 +78,11 @@
         app:layout_constraintTop_toBottomOf="@+id/sceneHeader"
         app:layout_constraintVertical_bias="0.211"
         tools:ignore="SpeakableTextPresentCheck" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/grEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="sceneBackgroundImage,sceneHeader,bt3,bottomButtonsGuideline,topButtonsGuideline,editTextTextPersonName" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

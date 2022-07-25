@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Novella3</string>
     <string name="username">Отлично, username чем займемся?</string>
+    <string name="txmynov">Моя визуальная новелла</string>
+    <string name="txstart">Начать</string>
+    <string name="textLay3">Пойдем по полю</string>
 </resources>

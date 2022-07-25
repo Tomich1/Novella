@@ -61,7 +61,7 @@
         android:id="@+id/bt3"
         style="@style/bt3"
         android:layout_marginBottom="26dp"
-        android:text="Пойдем по полю"
+        android:text="@string/textLay3"
         android:visibility="visible"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toTopOf="@+id/bottomButtonsGuideline"
@@ -95,4 +95,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/grThreeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="sceneBackgroundImage,sceneHeader,bt1,bt2,bt3,bottomButtonsGuideline,topButtonsGuideline,txhi" />
 </androidx.constraintlayout.widget.ConstraintLayout>
