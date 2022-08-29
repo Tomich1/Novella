@@ -12,13 +12,19 @@ class MainActivity : AppCompatActivity() {
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
 		setContentView(R.layout.activity_1)
+<<<<<<< Updated upstream
 		
 		val startGame = findViewById<Button>(R.id.bt1)
 		
+=======
+
+		val startGame = findViewById<Button>(R.id.bt1)
+
+>>>>>>> Stashed changes
 		startGame.setOnClickListener {
 			val intent = Intent(this, MainActivity2::class.java)
 			startActivity(intent)
-			
+
 		}
 	}
 }
