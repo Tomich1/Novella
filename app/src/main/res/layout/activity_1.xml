@@ -30,17 +30,18 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/bt1"
-        style="@style/bt1Start"
-        android:text="@string/txstart"
+        android:id="@+id/btStartGame"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#275168"
+        android:text="@string/buttonStart"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/topButtonsGuideline"
-        app:layout_constraintVertical_bias="0.119"
-        app:layout_constraintVertical_chainStyle="packed"
-        tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+        app:layout_constraintVertical_bias="0.119" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/bottomButtonsGuideline"
@@ -57,18 +58,12 @@
         app:layout_constraintGuide_percent="0.6361149" />
 
     <TextView
-        android:id="@+id/txhi"
+        android:id="@+id/txHi"
         style="@style/glavTx"
         android:text="@string/txmynov"
         android:textColor="#37474F"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <androidx.constraintlayout.widget.Group
-        android:id="@+id/grStart"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:constraint_referenced_ids="sceneBackgroundImage,sceneHeader,bt1,bottomButtonsGuideline,topButtonsGuideline,txhi" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

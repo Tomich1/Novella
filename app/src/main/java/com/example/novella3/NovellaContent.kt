@@ -6,6 +6,4 @@ data class NovellaContent(
     val firstAction: NovellaAction?,
     val secondAction: NovellaAction?,
     val thirdAction: NovellaAction?
-
 )
-

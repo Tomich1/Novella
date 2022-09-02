@@ -1,7 +1,3 @@
 package com.example.novella3
 
-
-class NovellaAction (val page : Int, val text : String){
-
-}
-
+class NovellaAction (val page : Int, val text : String)
